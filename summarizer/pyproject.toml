@@ -1,0 +1,19 @@
+[project]
+name = "summarizer"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+requires-python = ">=3.12"
+dependencies = [
+    "aio-pika>=9.5.4",
+    "fastapi[standard]>=0.115.8",
+    "networkx>=3.4.2",
+    "pydantic>=2.10.6",
+    "pydantic-settings>=2.7.1",
+]
+
+[dependency-groups]
+dev = [
+    "mypy>=1.15.0",
+    "ruff>=0.9.5",
+]

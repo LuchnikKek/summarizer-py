@@ -1,0 +1,20 @@
+[project]
+name = "ml-worker"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+requires-python = ">=3.12"
+dependencies = [
+    "aio-pika>=9.5.4",
+    "nltk>=3.9.1",
+    "numpy>=2.2.2",
+    "scikit-learn>=1.6.1",
+    "torch>=2.6.0",
+    "transformers>=4.48.3",
+]
+
+[dependency-groups]
+dev = [
+    "mypy>=1.15.0",
+    "ruff>=0.9.5",
+]
